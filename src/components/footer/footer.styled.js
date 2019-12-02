@@ -48,24 +48,6 @@ export const Footer = styled.footer`
     }
   }
 
-  // Other link sets:
-  // ul {
-  //   li {
-  //     font-family: 'MaisonNeue-Book';
-  //     font-size: 16px;
-  //     font-weight: normal;
-  //     font-stretch: normal;
-  //     font-style: normal;
-  //     line-height: 2.13;
-  //     letter-spacing: normal;
-  //     color: #ffffff;
-  //     a {
-  //       text-decoration: none;
-  //       color: ${white};
-  //     }
-  //   }
-  // }
-
   ${MEDIA.PHONE`
   .bottom-links {
       flex-direction: column;
