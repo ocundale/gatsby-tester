@@ -1,11 +1,13 @@
 {
-  "name": "gatsby-contentful-starter",
-  "description": "Starter Contentful Gatsby Blog",
+  "name": "spanish-with-criss",
+  "description": "Spanish With Criss Blog",
   "version": "1.0.0",
-  "author": "Stefan Judis <stefanjudis@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/contentful-userland/gatsby-contentful-starter/issues"
-  },
+  "author": "Oli C <oliver@skateboarduk.com>",
+  "browserslist": [
+    ">0.25%",
+    "chrome 43.0",
+    "not dead"
+  ],
   "dependencies": {
     "@material-ui/core": "^4.7.0",
     "babel-plugin-styled-components": "^1.10.6",
@@ -28,6 +30,7 @@
     "babel-eslint": "^10.0.1",
     "chalk": "^2.4.2",
     "contentful-import": "^7.4.3",
+    "core-js": "2",
     "dotenv": "^8.0.0",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.12.4",
