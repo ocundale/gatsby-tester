@@ -26,6 +26,22 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-styled-components',
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /images/,
+        },
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "fonts",
+        path: `${__dirname}/src/fonts/`
+      }
+    },
     {
       resolve: 'gatsby-source-contentful',
       options: contentfulConfig,
