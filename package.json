@@ -2,6 +2,9 @@
   "name": "spanish-with-criss",
   "description": "Spanish With Criss Blog",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.13.0"
+  },
   "author": "Oli C <oliver@skateboarduk.com>",
   "browserslist": [
     ">0.25%",
@@ -55,6 +58,8 @@
   "scripts": {
     "dev": "npm run develop",
     "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "ssr": "npm run build && npm run serve",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md' 'bin/*.js'",
