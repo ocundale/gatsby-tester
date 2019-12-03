@@ -32,7 +32,7 @@
 
 @media(min-width: 1000px) {
   .heroDetails {
-    padding: 30px;
+    margin: 30px 30px 30px -40px;
     font-size: 16px;
   }
 }
