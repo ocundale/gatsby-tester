@@ -3,7 +3,7 @@
   "description": "Spanish With Criss Blog",
   "version": "1.0.0",
   "engines": {
-    "node": "12.13.0"
+    "node": "12.3.1"
   },
   "author": "Oli C <oliver@skateboarduk.com>",
   "browserslist": [
@@ -26,7 +26,6 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
-    "sharp": "^0.22.0",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {

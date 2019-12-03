@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import { Footer } from './footer.styled';
-import Link from '../link';
 // import Newsletter from './newsletter';
 
 import Mail from '../../images/mail.svg';
@@ -62,7 +61,7 @@ const footer = () => {
             <li className="socIcon">
               <a
                 title="whatsapp"
-                href="https://api.whatsapp.com/send?phone=314324324&text=Hi,%20thanks%20for%20contacting%20me,%20I%20will%20get%20back%20to%20you%20as%20soon%20as%20possible!"
+                href="https://api.whatsapp.com/send?phone="
               >
                 {' '}
                 <Whatsapp />
