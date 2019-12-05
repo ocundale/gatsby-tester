@@ -13,7 +13,7 @@ export const Header = styled.header`
     font-weight: bold;
     font-size: 2.5em;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 39px;
     margin-left:30px;
   }
   nav {

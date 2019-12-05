@@ -19,7 +19,7 @@ const footer = () => {
           <hr />
           <ul className="bottom-links">
             <li className="link">
-              <a href="mailto: hi@spanishwithcriss.com">
+              <a href="mailto:hi@spanishwithcriss.com">
                 <Mail />
               </a>
             </li>
@@ -52,7 +52,7 @@ const footer = () => {
             <li className="socIcon">
               <a
                 title="youtube"
-                href="https://www.youtube.com/spanishwithcriss/"
+                href="https://www.youtube.com/channel/UCLgqmD_eKS42drvySe7Mp_A"
               >
                 {' '}
                 <Youtube />
@@ -61,7 +61,7 @@ const footer = () => {
             <li className="socIcon">
               <a
                 title="whatsapp"
-                href="https://api.whatsapp.com/send?phone="
+                href="https://api.whatsapp.com/send?phone=+573207417349"
               >
                 {' '}
                 <Whatsapp />
@@ -70,7 +70,7 @@ const footer = () => {
           </ul>
         </Grid>
         <Grid item xs={12}>
-          © Criss León {currentYear}
+          © Spanish with Criss {currentYear}
         </Grid>
       </Grid>
     </Footer>
