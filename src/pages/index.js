@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+import Grid from '@material-ui/core/Grid';
 import Hero from '../components/hero'
 import Layout from '../components/layout'
 import ArticlePreview from '../components/article-preview'
@@ -18,7 +19,12 @@ class RootIndex extends React.Component {
           <Helmet title={siteTitle} />
           <Hero data={author.node} />
           <div className="wrapper">
-            <h2 className="section-headline">Recent articles</h2>
+            <Grid container justify="center">
+              <Grid item xs={12} style={{textAlign: 'center'}}>
+                
+              </Grid>
+            </Grid>
+            <h2 className="section-headline"></h2>
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (
