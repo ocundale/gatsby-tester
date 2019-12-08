@@ -11,7 +11,6 @@ class AboutPage extends React.Component {
         <div className="wrapper">
           <h2 className="section-headline">About Me</h2>
           <p dangerouslySetInnerHTML={{ __html: author.node.shortBio.childMarkdownRemark.html }}></p>
-
         </div>
       </Layout>
     )

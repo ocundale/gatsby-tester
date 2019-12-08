@@ -26,6 +26,7 @@ const footer = () => {
             <li className="socIcon">
               <a
                 title="facebook"
+                target="_blank"
                 href="https://facebook.com/spanishwithcriss"
               >
               <Facebook />
@@ -34,6 +35,7 @@ const footer = () => {
             <li className="socIcon">
               <a
                 title="instagram"
+                target="_blank"
                 href="https://instagram.com/spanishwithcriss"
               >
                 {' '}
@@ -52,6 +54,7 @@ const footer = () => {
             <li className="socIcon">
               <a
                 title="youtube"
+                target="_blank"
                 href="https://www.youtube.com/channel/UCLgqmD_eKS42drvySe7Mp_A"
               >
                 {' '}
@@ -61,6 +64,7 @@ const footer = () => {
             <li className="socIcon">
               <a
                 title="whatsapp"
+                target="_blank"
                 href="https://api.whatsapp.com/send?phone=+573207417349"
               >
                 {' '}
