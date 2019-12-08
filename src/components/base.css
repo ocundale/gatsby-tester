@@ -132,3 +132,9 @@ hr {
   /* border: 1px solid #770087; */
   border-radius: 17px;
 }
+
+.learn-image {
+  width: 220px;
+  margin-left: 66px;
+  margin-top: -57px;
+}

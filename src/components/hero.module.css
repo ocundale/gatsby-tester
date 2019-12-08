@@ -3,7 +3,7 @@
   background: #fff;
   color: #000;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .heroImage {
@@ -32,7 +32,7 @@
 
 @media(min-width: 1000px) {
   .heroDetails {
-    margin: 30px 30px 30px -40px;
+    margin: 30px 30px 30px -19px;
     font-size: 16px;
   }
 }
@@ -45,4 +45,5 @@
   margin: 0;
   font-size: 1.125em;
   text-align: justify;
+  line-height: 28px;
 }
