@@ -3,6 +3,7 @@ import Img from 'gatsby-image'
 import Grid from '@material-ui/core/Grid'
 import styles from './hero.module.css'
 import { Link } from 'gatsby'
+import Image from './image/image';
 // import Learn from '../images/learn.png';
 
 export default ({ data }) => (
@@ -23,7 +24,12 @@ export default ({ data }) => (
       </Grid>
       <Grid item md={4} xs={12}>
         <div className={styles.heroDetails}>
-        <Img  alt={data.name} fluid={data.heroImage.fluid} />
+        <Image
+          src="learn.png"
+          alt="Learn spanish classes"
+          className="learn-image"
+        ></Image>
+        {/* <Learn /> */}
         <Link to="/spanish-classes/">
           <a href="#" class="purplebutton">Let's get started!</a>
         </Link>
