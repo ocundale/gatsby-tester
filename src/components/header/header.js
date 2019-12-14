@@ -8,12 +8,12 @@ const header = () => {
   return (
     <Header>
       <Grid container justify="center">
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <Link to="/">
             <h1>Spanish with Criss</h1>
           </Link>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <Navigation />
         </Grid>
       </Grid>

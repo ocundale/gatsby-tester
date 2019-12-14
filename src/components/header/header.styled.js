@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { purple } from '../../constants/theme';
-// import MEDIA from '../../helpers/mediaTemplates';
+import MEDIA from '../../helpers/mediaTemplates';
 
 export const Header = styled.header`
   h1 {
@@ -31,6 +31,10 @@ export const Header = styled.header`
       max-height: 100px;
       width: 310px;
       float: right;
+      ${MEDIA.PHONE`
+        float: none;
+        margin: auto;
+      `}
       li {
         font-size: 18px;
         display: inline-flex;

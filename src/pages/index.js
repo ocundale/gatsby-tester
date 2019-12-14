@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Grid from '@material-ui/core/Grid';
 import Hero from '../components/hero'
-import Layout from '../components/layout'
+import { Layout } from '../components/style/layout.styled'
 import ArticlePreview from '../components/article-preview'
 
 class RootIndex extends React.Component {
@@ -21,7 +21,7 @@ class RootIndex extends React.Component {
           <div className="wrapper">
             <Grid container justify="center">
               <Grid item xs={12} style={{textAlign: 'center'}}>
-                
+
               </Grid>
             </Grid>
             <h2 className="section-headline"></h2>

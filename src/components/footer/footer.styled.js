@@ -10,7 +10,7 @@ export const Footer = styled.footer`
   z-index: 1000;
   background-color: ${white};
   align-items: center;
-  padding: 2em 3em 1em 3em;
+  padding: 2em 0em 1em 0em;
 
   ${MEDIA.TABLET`
     svg {
@@ -49,9 +49,8 @@ export const Footer = styled.footer`
   }
 
   ${MEDIA.PHONE`
-  .bottom-links {
-      flex-direction: column;
-  }
-
+    .bottom-links {
+      padding: 0;
+    }
   `};
 `;
