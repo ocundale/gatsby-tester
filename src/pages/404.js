@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import { Layout } from '../components/style/layout.styled'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
 

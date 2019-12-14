@@ -3,8 +3,8 @@ import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import get from 'lodash/get'
 import Img from 'gatsby-image'
-import Layout from '../components/layout'
-
+import { Layout } from '../components/style/layout.styled'
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import heroStyles from '../components/hero.module.css'
 
 class BlogPostTemplate extends React.Component {
@@ -19,7 +19,7 @@ class BlogPostTemplate extends React.Component {
           <div className={heroStyles.hero}>
             <Img className={heroStyles.heroImage} alt={post.title} fluid={post.heroImage.fluid} />
           </div>
-          <div className="wrapper">
+          <div className="wrapper" style={{marginLeft: '0'}}>
             <h1 className="section-headline">{post.title}</h1>
             <p
               style={{
@@ -29,10 +29,11 @@ class BlogPostTemplate extends React.Component {
               {post.publishDate}
             </p>
             <div
-              dangerouslySetInnerHTML={{
-                __html: post.articleBody.childMarkdownRemark.html,
-              }}
+              // dangerouslySetInnerHTML={{
+              //   __html: post.articleBody.json,
+              // }}
             />
+            {documentToReactComponents(post.articleBody.json)}
           </div>
         </div>
       </Layout>
@@ -58,9 +59,7 @@ export const pageQuery = graphql`
         }
       }
       articleBody {
-        childMarkdownRemark {
-          html
-        }
+        json
       }
     }
   }
