@@ -18,7 +18,7 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Contentful starter',
+    title: 'Spanish With Criss - Online Spanish Tutoring',
   },
   pathPrefix: '/gatsby-contentful-starter',
   plugins: [

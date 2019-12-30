@@ -30,10 +30,10 @@ export default ({ data }) => (
           className="learn-image"
         ></Image>
         {/* <Learn /> */}
-        <Link to="/spanish-classes/">
-          <a href="#" class="purplebutton">Let's get started!</a>
+        <Link to="/spanish-classes/" className="purplebutton">
+          <p>Lets get started!</p>
         </Link>
-          {/* <p>{data.shortBio.shortBio}</p> */}
+        {/* <p>{data.shortBio.shortBio}</p> */}
         </div>
       </Grid>
     </Grid>
