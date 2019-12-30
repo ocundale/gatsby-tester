@@ -31,7 +31,7 @@ export default ({ data }) => (
         ></Image>
         {/* <Learn /> */}
         <Link to="/spanish-classes/" className="purplebutton">
-          <p>Lets get started!</p>
+          {`Let's get started!`}
         </Link>
         {/* <p>{data.shortBio.shortBio}</p> */}
         </div>
