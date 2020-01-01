@@ -74,7 +74,7 @@ const footer = () => {
           </ul>
         </Grid>
         <Grid item xs={12}>
-          © Spanish with Criss {currentYear}
+          © Spanish with Criss {currentYear} 🇨🇴
         </Grid>
       </Grid>
     </Footer>
