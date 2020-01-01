@@ -26,7 +26,7 @@ const Image = ({ src, ...props }) => {
     () => data.allFile.edges.find(({ node }) => src === node.relativePath),
     [data, src]
   );
-  console.log(data, src);
+  // console.log(data, src);
   const image = match.node;
   const sharp = !!image && !!image.childImageSharp;
   return sharp ? (

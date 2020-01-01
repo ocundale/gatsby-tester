@@ -15,6 +15,10 @@ export const Header = styled.header`
     text-align: left;
     margin-top: 39px;
     margin-left:30px;
+    ${MEDIA.PHONE`
+      font-size: 2em;
+      margin-bottom: 5px;
+    `}
   }
   nav {
     ul {
@@ -34,6 +38,7 @@ export const Header = styled.header`
       ${MEDIA.PHONE`
         float: none;
         margin: auto;
+        padding-left:0;
       `}
       li {
         font-size: 18px;
